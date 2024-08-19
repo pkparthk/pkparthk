@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Data Structures and Algorithms logical thinking and Smart Contracts<br>🌱 I’m currently learning, Data Structures and Algorithms, Web3.0, Full Stack development<br>💬 Ask me about anything<br>⚡ Fun fact Happy
+🔭 I’m currently working on Data Structures and Algorithms logical thinking and Smart Contracts<br>🌱 I’m currently learning, Data Structures and Algorithms, Web3.0, Full Stack development<br>💬 Ask me about anything<br>⚡ Fun fact Happy 😄 
 
 
 ## 🌐 Socials:
