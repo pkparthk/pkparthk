@@ -59,6 +59,9 @@ const aboutMe = () => {
 console.log(aboutMe());
 ````
 
+<p align="center"><i>- Parth Kothari -</i></p>
+
+
 <div align="center">
 
   <hr />
