@@ -83,3 +83,7 @@ console.log(aboutMe());
 </div>
 
 <hr />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&center=true&width=435&lines=Contributions+under+Attack+!!" alt="Typing Animation" />
+   
+<img src="https://github.com/pkparthk/pkparthk/blob/output/snake2.svg" alt="Contribution Snake Animation" />
