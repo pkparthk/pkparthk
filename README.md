@@ -38,24 +38,16 @@ const aboutMe = () => {
   const profile = {
     name: "Babumoshay",
     roles: ["Full Stack Developer", "Blockchain Developer", "AI Enthusiast", "Google Cloud Developer"],
-    experienceLevel: "Fresher (eager to grow)",
     summary:
-      "Quick learner passionate about building reliable, maintainable software. I love solving problems end-to-end — from system design and APIs to testing and deployment.",
+      "Quick learner passionate about building reliable, maintainable software.
+        I love solving problems end-to-end — from system design and APIs to testing and deployment.",
     topics: [
       {
         prefix: "Currently building",
         highlights: [
           "Web apps with React/Next.js",
-          "APIs with FastAPI/Node.js",
+          "APIs with Node.js/FastAPI",
           "Smart contracts & dApp integrations"
-        ]
-      },
-      {
-        prefix: "Currently improving",
-        highlights: [
-          "System design & architecture",
-          "CI/CD & DevOps (Docker, Kubernetes, Terraform)",
-          "Performance optimization & observability"
         ]
       },
       {
@@ -69,21 +61,17 @@ const aboutMe = () => {
       {
         prefix: "Tools & Tech I use",
         highlights: [
-          "Python, TypeScript, C++, Java",
-          "Postgres, MongoDB, Redis",
+          "JavaScript, TypeScript, C++, C, Python",
+          "Postgres, MongoDB",
           "GCP, Docker, GitHub Actions"
         ]
       },
       {
         prefix: "Fun",
         highlights: ["I’m usually smiling while debugging"]
-      },
-      {
-        prefix: "Open to",
-        highlights: ["Internships, collaborative projects, mentorship and interview practice"]
-      }
+      },      
     ],
-    callToAction: "Ask me about system design, full-stack implementations, or interview prep — happy to help!"
+    callToAction: "Ask me about, full-stack implementations, Cloud, or DSA — happy to help!"
   };
 
   const topicsText = profile.topics
@@ -103,7 +91,6 @@ const aboutMe = () => {
   ].join("\n");
 };
 
-// Print to console (example)
 console.log(aboutMe());
 ````
 
