@@ -33,10 +33,9 @@
 
 <!-- About Me JavaScript Block: Left-Aligned Outside Centered Div -->
 ```javascript
-// aboutMe.js
 const aboutMe = () => {
   const profile = {
-    name: "Babumoshay",
+    name: "Parth",
     roles: ["Full Stack Developer", "Blockchain Developer", "AI Enthusiast", "Google Cloud Developer"],
     summary:
       "Quick learner passionate about building reliable, maintainable software.
@@ -80,8 +79,7 @@ const aboutMe = () => {
 
   return [
     `Name: ${profile.name}`,
-    `Roles: ${profile.roles.join(" • ")}`,
-    `Level: ${profile.experienceLevel}`,
+    `Roles: ${profile.roles.join(" • ")}`,    
     "",
     profile.summary,
     "",
