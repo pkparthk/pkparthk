@@ -33,29 +33,77 @@
 
 <!-- About Me JavaScript Block: Left-Aligned Outside Centered Div -->
 ```javascript
+// aboutMe.js
 const aboutMe = () => {
-  const topics = [
-    {
-      prefix: "I’m currently working on",
-      highlights: ["Data Structures and Algorithms", "Logical Thinking", "Smart Contracts"]
-    },
-    {
-      prefix: "I’m currently learning",
-      highlights: ["Web3.0", "Full Stack Development", "Advanced DSA"]
-    },
-    {
-      prefix: "Ask me about anything tech-related – always happy to help!"
-    },
-    {
-      prefix: "Fun fact: I'm usually smiling while debugging"
-    }
-  ];
+  const profile = {
+    name: "Babumoshay",
+    roles: ["Full Stack Developer", "Blockchain Developer", "AI Enthusiast", "Google Cloud Developer"],
+    experienceLevel: "Fresher (eager to grow)",
+    summary:
+      "Quick learner passionate about building reliable, maintainable software. I love solving problems end-to-end — from system design and APIs to testing and deployment.",
+    topics: [
+      {
+        prefix: "Currently building",
+        highlights: [
+          "Web apps with React/Next.js",
+          "APIs with FastAPI/Node.js",
+          "Smart contracts & dApp integrations"
+        ]
+      },
+      {
+        prefix: "Currently improving",
+        highlights: [
+          "System design & architecture",
+          "CI/CD & DevOps (Docker, Kubernetes, Terraform)",
+          "Performance optimization & observability"
+        ]
+      },
+      {
+        prefix: "Core software practices I follow",
+        highlights: [
+          "TDD / Unit & Integration Testing",
+          "Clean code & SOLID principles",
+          "Code reviews & collaborative workflows (Git)"
+        ]
+      },
+      {
+        prefix: "Tools & Tech I use",
+        highlights: [
+          "Python, TypeScript, C++, Java",
+          "Postgres, MongoDB, Redis",
+          "GCP, Docker, GitHub Actions"
+        ]
+      },
+      {
+        prefix: "Fun",
+        highlights: ["I’m usually smiling while debugging"]
+      },
+      {
+        prefix: "Open to",
+        highlights: ["Internships, collaborative projects, mentorship and interview practice"]
+      }
+    ],
+    callToAction: "Ask me about system design, full-stack implementations, or interview prep — happy to help!"
+  };
 
-  return topics.map(({ prefix, highlights }) =>
-    `${prefix}${highlights ? ": " + highlights.join(", ") : ""}`
-  ).join("\n");
+  const topicsText = profile.topics
+    .map(({ prefix, highlights }) => `${prefix}${highlights ? ": " + highlights.join(", ") : ""}`)
+    .join("\n");
+
+  return [
+    `Name: ${profile.name}`,
+    `Roles: ${profile.roles.join(" • ")}`,
+    `Level: ${profile.experienceLevel}`,
+    "",
+    profile.summary,
+    "",
+    topicsText,
+    "",
+    profile.callToAction
+  ].join("\n");
 };
 
+// Print to console (example)
 console.log(aboutMe());
 ````
 
