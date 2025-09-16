@@ -20,11 +20,11 @@
   <br /><br />
 
   <!-- GitHub Streak Stats -->
-  <img src="https://github-readme-streak-stats-seven-azure.vercel.app?user=pkparthk&theme=tokyonight-duo&hide_border=true&border_radius=4" alt="GitHub Streak Stats" />
+  <!-- <img src="https://github-readme-streak-stats-seven-azure.vercel.app?user=pkparthk&theme=tokyonight-duo&hide_border=true&border_radius=4" alt="GitHub Streak Stats" /> 
 
   <br /><br />
 
-  <hr />
+  <hr />  -->
 
   <!-- About Me Heading -->
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=1DB9C3&center=true&vCenter=true&width=435&lines=%3CAbout+Me+%2F%3E" alt="About Me Typing SVG" />
