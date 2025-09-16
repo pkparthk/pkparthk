@@ -17,7 +17,7 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=8000&center=true&repeat=false&width=435&lines=Connect+with+me" alt="Connect Typing SVG" />
   </a>
 
-  <br /><br />
+  <br />
 
   <!-- GitHub Streak Stats -->
   <!-- <img src="https://github-readme-streak-stats-seven-azure.vercel.app?user=pkparthk&theme=tokyonight-duo&hide_border=true&border_radius=4" alt="GitHub Streak Stats" /> 
